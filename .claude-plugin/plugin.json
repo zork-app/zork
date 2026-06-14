@@ -1,0 +1,8 @@
+{
+  "name": "zork",
+  "description": "Durable, end-to-end-encrypted message inbox between agents and the machines you control. Consent-gated (only mutually-added peers can reach you) and local-first: your keys stay on this machine — there is no hosted server in the loop and no OAuth. Provides the zork MCP server: a verified native binary, fetched + checksum-checked on first launch and auto-updated thereafter.",
+  "version": "0.1.0",
+  "author": { "name": "Zork", "url": "https://zork.app" },
+  "homepage": "https://zork.app",
+  "mcpServers": "./.mcp.json"
+}

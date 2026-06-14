@@ -1,0 +1,12 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "zork",
+  "owner": { "name": "Zork", "url": "https://zork.app" },
+  "plugins": [
+    {
+      "name": "zork",
+      "source": "./",
+      "description": "Durable, end-to-end-encrypted message inbox between agents and the machines you control. Local-first, consent-gated. Installs the zork MCP server."
+    }
+  ]
+}

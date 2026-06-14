@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "zork": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/zork-mcp.sh",
+      "args": ["--data", "${CLAUDE_PLUGIN_DATA}/default", "mcp"],
+      "env": {
+        "PATH": "/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin"
+      }
+    }
+  }
+}
